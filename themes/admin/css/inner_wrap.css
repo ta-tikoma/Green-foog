@@ -1,0 +1,105 @@
+.load_gif {
+  margin-right: 5px;
+  display: none;
+  height: 16px;
+  width: 16px;
+  background: url(../img/load.gif) no-repeat 1px 1px;
+  float: left;
+}
+
+.info_data {
+  display: none;
+  padding-bottom: 10px;
+  line-height: 12px;
+}
+
+.inner_wrap textarea { 
+  margin: 0 0 3px 0;
+  width: 330px;
+  height: 70px;
+  float: left;
+  padding: 0 8px;
+  float: left;
+  font: bold 14px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  border: 1px solid #ACACAC;
+  background: #eee;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.inner_wrap input {
+  float: left;
+}
+
+.inner_wrap input[type=text] {
+    margin: 0 0 3px 0;
+    width: 330px;
+    height: 20px;
+    padding: 0 8px;
+    font: bold 14px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ACACAC;
+    background: #eee;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.inner_wrap input[type=text]:focus {
+  outline: 0;
+  background: #fff;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+}
+
+.inner_wrap .list_label {
+  outline: none;
+  width: 330px;
+  margin: 0 0 3px 0;
+  overflow: visible;
+  position: relative;
+  float: left;
+  border: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  height: 22px;
+  font: bold 12px/23px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  color: #fff;
+  text-transform: uppercase;
+  background: #40c55b;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.inner_wrap .label {
+  outline: none;
+  margin: 0 0 3px 0;
+  overflow: visible;
+  position: relative;
+  float: left;
+  border: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  height: 22px;
+  font: bold 12px/23px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  color: #fff;
+  text-transform: uppercase;
+  background: #40c55b;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.inner_wrap .label:after {
+  content: '';
+  position: absolute;
+  border-width: 8px 0 8px 8px;
+  border-style: solid none solid solid ;
+  border-color: transparent #40c55b transparent;
+  top: 3px;
+  right: -6px;
+}

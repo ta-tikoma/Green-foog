@@ -1,0 +1,62 @@
+.action {
+	cursor: pointer;
+	background-color: #40c55b;
+	border: 1px solid #40c55b;
+	font-weight: bold;
+	padding: 0 4px;
+	color: #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 6px;
+	min-width: 20px;
+	height: 20px;
+	/*margin: 0 3px 4px 0;*/
+	float: left;
+	display: none;
+}
+
+.action:hover {
+	border-color: #3F3F3F;
+}
+
+.remove_action {
+	background: url(../img/close.gif) no-repeat 1px 1px #40c55b;
+}
+
+.edit_action {
+	background: url(../img/edit.gif) no-repeat 1px 1px #40c55b;
+}
+
+.clone_action {
+	background: url(../img/newwindow.gif) no-repeat 1px 1px #40c55b;
+}
+
+.action.save_value_action {
+	background: url(../img/save.gif) no-repeat 1px 1px #40c55b;
+	display: block;
+	padding-left: 20px;
+}
+
+.add_action {
+	background: url(../img/add.gif) no-repeat 1px 1px #40c55b;
+}
+
+.action.action_hider {
+	background: url(../img/arrow1_e.gif) no-repeat 1px 1px #40c55b;
+	display: block;
+}
+
+.action_wrap {
+	float: left;
+	padding-top: 1px;
+}
+
+.action_wrap:hover .action.action_hider {
+	display: none;
+	background: url(../img/arrow1_w.gif) no-repeat 1px 1px #40c55b;
+}
+
+.action_wrap:hover .action {
+	display: block;
+}

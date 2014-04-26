@@ -1,0 +1,29 @@
+body {
+  background:#E6E6E6;
+  font-family:Segoe,"Segoe UI",Calibri,Arial,Sans-Serif;
+  padding:0;
+  margin: 0;
+}
+
+.header {
+  height: 42px;
+  border-bottom: 1px solid #40c55b;
+  padding-top: 7px;
+}
+
+.header p {
+  font-family: Coda, cursive, sans-serif;
+  margin: 5px 0;
+}
+
+.content {
+  /*float: left;*/
+  border-left: 1px solid #40c55b;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 35px;
+}
+
+.link {
+  margin-left: 54px;
+}

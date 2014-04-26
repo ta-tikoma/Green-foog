@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Eurofurencelight';
+	src: url('fonts/Eurofurencelight.eot?') format('eot'), 
+	     url('fonts/Eurofurencelight.woff') format('woff'), 
+	     url('fonts/Eurofurencelight.ttf')  format('truetype'),
+	     url('fonts/Eurofurencelight.svg#Eurofurencelight') format('svg');
+}
+
+body, div, ul, li {
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-family: "Eurofurencelight", Arial, Tahoma, sans-serif;
+}
+
+.container {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+
+.container h1 {
+	font-size: 72px;
+}
+
+.container li {
+	font-size: 22px;
+	margin: 0 7px;
+}
+
+.container li.active a {
+	background-color: #40c55b;
+	color: white;
+}
+
+.container li a {
+	text-decoration: none;
+	padding: 2px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.container li a:hover {
+	text-decoration: underline;
+}
+
+.language_list {
+	list-style: none;
+}
+
+.language_list li {
+	display: inline;
+}
