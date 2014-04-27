@@ -7,6 +7,6 @@ Green-foog
 Панель администрирования доступна по пути http://название_сайта/admin/
 
 Использовались следующие библиотеки:
-http://w2ui.com/web/
-http://jquery.com/
-http://odyniec.net/articles/turning-lists-into-trees/
+- http://w2ui.com/web/
+- http://jquery.com/
+- http://odyniec.net/articles/turning-lists-into-trees/
